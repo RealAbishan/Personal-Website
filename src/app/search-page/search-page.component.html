@@ -1,0 +1,74 @@
+<div class="ser-content">
+    <div class="ser-items">
+        <input type="text" class="ser-bar" matInput (keyup)="applyFilter($event)" placeholder="Search Here" #input>
+    </div>
+</div>
+
+
+  <mat-table [dataSource]="dataSource" class="mat-elevation-z8" >
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="team">
+      <mat-header-cell *matHeaderCellDef> Name </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.team}} </mat-cell>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="p">
+      <mat-header-cell *matHeaderCellDef> Played </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.p}} </mat-cell>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="w">
+      <mat-header-cell *matHeaderCellDef> W </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.w}} </mat-cell>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="l">
+      <mat-header-cell *matHeaderCellDef> L </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.l}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="d">
+        <mat-header-cell *matHeaderCellDef> D </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.d}} </mat-cell>
+      </ng-container>
+    
+      <!-- Name Column -->
+      <ng-container matColumnDef="gs">
+        <mat-header-cell *matHeaderCellDef> GS </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.gs}} </mat-cell>
+      </ng-container>
+    
+      <!-- Weight Column -->
+      <ng-container matColumnDef="gr">
+        <mat-header-cell *matHeaderCellDef> GR </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.gr}} </mat-cell>
+      </ng-container>
+    
+      <!-- Symbol Column -->
+      <ng-container matColumnDef="gd">
+        <mat-header-cell *matHeaderCellDef> GD </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.gd}} </mat-cell>
+      </ng-container>
+
+      <ng-container matColumnDef="pt">
+        <mat-header-cell *matHeaderCellDef> PT </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.pt}} </mat-cell>
+      </ng-container>
+    
+      <!-- Name Column -->
+      <ng-container matColumnDef="position">
+        <mat-header-cell *matHeaderCellDef> Position </mat-header-cell>
+        <mat-cell *matCellDef="let element"> {{element.position}} </mat-cell>
+      </ng-container>
+    
+  
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+<p class="copyright">
+    &copy; Designed &amp; Developed By Abishan Parameswaran
+</p>

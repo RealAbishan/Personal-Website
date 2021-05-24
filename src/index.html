@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>English Premier League</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+
+  <script>
+    function CountDown(secs,elem){
+      var element = document.getElementById(elem);
+      element.innerHTML = "Welcome to the English Premier League";
+      if(secs<1){;
+        window.location.href = "app.component.html"
+      }
+      secs--;
+      var timer =  setTimeout('countDown('+secs+',"'+elem+'")',1000);
+    }
+  </script>
+</head>
+<body class="mat-typography">
+  <app-root>
+    <img src="./assets/Images/moveGif.webp" alt="Welcome Gif" class="welcome">
+    <h1 id="mainPage"></h1>
+    <script>CountDown(4,"mainPage")</script>
+  </app-root>
+</body>
+</html>

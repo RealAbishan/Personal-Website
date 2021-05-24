@@ -1,0 +1,82 @@
+.table-ser{
+  padding-top: 30px;
+}
+.ser-content{
+  margin-left: 30%;
+}
+
+.lbl-ser{
+  margin-top: 10px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.ser-bar{
+    width: 350px;
+    height: 20px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    background: transparent;
+    font: 18px Arial;
+    color: whitesmoke;
+
+}
+
+.btn-learnMore{
+  top: 0px;
+  left: 1%;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: whitesmoke;
+  margin-left: 25px;
+}
+
+.btn-learnMore:hover{
+    color: coral;
+    border-bottom: whitesmoke 1px solid;
+  }
+
+.btn-learnMore::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 5px;
+    background-color: crimson;  
+    transform: scaleY(0);
+    transition: transform 0.25s, opacity 0.2s;
+}
+
+
+table {
+  width: 1500px;
+}
+
+.mat-elevation-z8{
+  width: 1000px;
+  height: 400px;
+  margin-top: 50px;
+}
+
+
+.copyright {
+    position: absolute;
+    top: 95%;
+    left: 61%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 11px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  

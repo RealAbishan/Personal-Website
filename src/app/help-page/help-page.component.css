@@ -1,0 +1,21 @@
+.help-banner{
+    margin-left: 350px;
+}
+
+.help-tit{
+    font-size: 36px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ser-help{
+    padding-top: 35px;
+    margin-left: 280px;
+
+}
+
+.ser-bar{
+    width: 450px;
+    border-radius: 0;
+    height: 25px;
+}

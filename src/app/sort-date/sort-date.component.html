@@ -1,0 +1,45 @@
+<div class="ser-content">
+    <div class="ser-items">
+        <input type="text" class="ser-bar" matInput (keyup)="applyFilter($event)" placeholder="Search Here" #input>
+    </div>
+</div>
+
+<mat-table [dataSource]="dataSource" class="mat-elevation-z8" >
+
+  <!-- Position Column -->
+  <ng-container matColumnDef="Home">
+    <mat-header-cell *matHeaderCellDef> Home </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.Home}} </mat-cell>
+  </ng-container>
+
+  <!-- Name Column -->
+  <ng-container matColumnDef="Visitors">
+    <mat-header-cell *matHeaderCellDef> Away </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.Visitors}} </mat-cell>
+  </ng-container>
+
+  <!-- Weight Column -->
+  <ng-container matColumnDef="HG">
+    <mat-header-cell *matHeaderCellDef> HG </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.HG}} </mat-cell>
+  </ng-container>
+
+  <!-- Symbol Column -->
+  <ng-container matColumnDef="VG">
+    <mat-header-cell *matHeaderCellDef> VG </mat-header-cell>
+    <mat-cell *matCellDef="let element"> {{element.VG}} </mat-cell>
+  </ng-container>
+
+  <ng-container matColumnDef="date">
+      <mat-header-cell *matHeaderCellDef> Date </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.date}} </mat-cell>
+    </ng-container>
+  
+  
+
+  <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+  <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+</mat-table>
+<p class="copyright">
+    &copy; Designed &amp; Developed By Abishan Parameswaran
+</p>

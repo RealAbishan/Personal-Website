@@ -1,0 +1,180 @@
+.navigation{
+    position: relative;
+    width: 1300px;
+    margin: 10px 0px 0px 0px;
+    
+}
+
+.mat-sidenav-container{
+    height: 100%;
+}
+
+.mat-sidenav .mat-sidenav-content{
+    padding:16px;
+}
+
+.mat-sidenav{
+    background-color: blue;
+    width: 200px;
+}
+.navbar{
+    background-color: blue;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+.navabr{
+    position: relative;
+    width: 1300px;
+    margin: 0 0px 10px 20px;
+    align-items: center;
+    display: flex;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+  }
+.main-container{
+    padding-top: 0px;
+    margin: 0 20px 0px 20px;
+    position: relative;
+
+  }
+
+.btn-start{
+    top: 50%;
+    left: 50%;
+    background-color: #ee1e46;
+  }
+
+
+.main-container .copyright {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 11px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+  .main-container .btn-start {
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #ee1e46;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.main-container .btn-start:hover{
+  position: absolute;
+  top: 75%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 120px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.main-container  .btn-learnMore{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: #fff;
+  font-size: 1rem;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.main-container  .btn-learnMore:hover{
+  position: absolute;
+  top: 75%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:#ee1e46;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 25px;
+  text-align: center;
+}
+
+
+.main-container  .title{
+  position: absolute;
+  top: 30%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: #fff;
+  font-weight: 800;
+  font-size: 3.25rem;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  text-align: right;
+}
+
+.main-container  .moto{
+  position: absolute;
+  top: 50%;
+  left: 19.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color:transparent;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 800;
+  font-size: 1.25rem;
+  padding: 12px 24px;
+  border: none;
+  text-align: right;
+}
+
+.bg-image{
+  -webkit-filter: grayscale(10%);
+  filter: grayscale(75%);
+}
+
+
+.matTab{
+    background-color: blue;
+    justify-content: space-between;
+    
+}
+
+.mat-label {
+    border-width: 9px;
+    border-style: solid;
+    border-color: red;
+  }
+

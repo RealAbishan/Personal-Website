@@ -1,0 +1,46 @@
+table {
+    width: 1500px;
+  }
+
+.mat-elevation-z8{
+    width: 1000px;
+    height: 400px;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+
+.btn-learnMore{
+    top: 50px;
+    left: 220px;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: whitesmoke;
+    margin-left: 25px;
+  }
+
+.btn-learnMore:hover{
+    color: coral;
+    
+  }
+
+  .copyright {
+    position: absolute;
+    top: 95%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 11px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  

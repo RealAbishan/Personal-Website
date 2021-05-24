@@ -1,0 +1,53 @@
+<div class="main-container">
+    <div class="sidenav">
+        <div class="list-items">
+            <a routerLink="/homePage" routerLinkActive="selected" class="list-item">
+                <i class="material-icons">
+                    home
+                </i>
+                Main Page
+            </a>
+            <a routerLink="/pointsTable" routerLinkActive="selected"  class="list-item">
+                <i class="material-icons">
+                    table_view
+                </i>
+                Points Table
+            </a>
+            <a routerLink="/randomMatch" routerLinkActive="selected"  class="list-item">
+                <i class="material-icons">
+                    swap_vert
+                </i>
+                Random Match
+            </a>
+
+            <a routerLink="/sortByDate" routerLinkActive="selected"  class="list-item">
+                <i class="material-icons">
+                    date_range
+                </i>
+                Sort By Date
+            </a>
+
+            <a routerLink="/searchPage" routerLinkActive="selected"  class="list-item">
+                <i class="material-icons">
+                    search
+                </i>
+                Search
+            </a>
+
+            <a routerLink="/helppage" routerLinkActive="selected"  class="list-item">
+                <i class="material-icons">
+                    help_outline
+                </i>
+                Help
+            </a>
+        </div>
+    </div>
+
+    <div class="page-content-container">
+
+        <router-outlet>
+
+        </router-outlet>
+    </div>
+    
+</div>
